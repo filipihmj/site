@@ -106,25 +106,35 @@ h3 {
 .texto1 {
     font-size: 15px;
 }
-.negrito-cor {
-    font-weight: bold;
-    color: #4169E1;
-}
 .negrito {
     font-weight: bold;
 }
+.negrito-cor {
+    font-weight: bold;
+    color: #3A5FCD;
+}
 .color{
-    color: #4169E1;
+    color: #3A5FCD;
 }
 #motivos ul {
     display: flex;
 }
 #motivos li{
-    flex: auto;
-    font-size: 15px;
+    font-size: 17px;
     text-transform: none;
-    font-family: "Arial", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     text-align: justify;
-    padding-left: 15%;
     padding-top: 5%;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+#motivos li:nth-child(1),
+#motivos li:nth-child(3){
+    padding-left: 15%;
+}
+
+#motivos li:nth-child(2)
+#motivos li:nth-child(4){
+    
 }
