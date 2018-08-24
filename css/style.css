@@ -96,10 +96,10 @@ header {
 .vaga-final {
     
 }
-h2 {
+h1 {
     font-size: 40px;
 }
-h3 {
+h2 {
     font-size: 20px;
     padding-bottom: 15px;
 }
@@ -134,7 +134,20 @@ h3 {
     padding-left: 15%;
 }
 
-#motivos li:nth-child(2)
-#motivos li:nth-child(4){
-    
+.titulo-motivos{
+    width: 70%;
+    height: 20%;
+    padding: 1px;
+    background-color: #104E8B;
+    font-weight: bold;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    color: white; 
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+#motivos p{
+    width: 100%;
 }
